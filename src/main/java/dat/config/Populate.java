@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 import java.util.Set;
 
 public class Populate {
-    public static void main(String[] args) {
+    public void populateDB() {
 
         EntityManagerFactory emf = HibernateConfig.getEntityManagerFactory();
 
