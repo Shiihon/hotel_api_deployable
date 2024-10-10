@@ -15,7 +15,9 @@ public class Main {
 
     public static void main(String[] args) {
         Populate populate = new Populate();
-        //populate.populateDB();
+        populate.populateDB();
         ApplicationConfig.startServer(7070);
+
+        System.out.println("Hello from behind");
     }
 }
