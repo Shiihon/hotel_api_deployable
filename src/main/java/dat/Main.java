@@ -17,7 +17,5 @@ public class Main {
         Populate populate = new Populate();
         populate.populateDB();
         ApplicationConfig.startServer(7070);
-
-        System.out.println("Hello from behind");
     }
 }
